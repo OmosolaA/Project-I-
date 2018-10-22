@@ -23,3 +23,15 @@
 		li $v0, 10
 		syscall
 		\end
+		
+`		li $v0, 11
+		la $a0, 65 # A
+		syscall
+		addi $a0, $a0, 54 # w (119)
+		syscall
+		sub $a0, $a0, 8 # o (111)
+		syscall
+		addi $a0, $a0, 10 # y (121)
+		syscall
+		sub $a0, $a0, 20 # e (101)
+		syscall 

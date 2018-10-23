@@ -34,4 +34,15 @@
 		addi $a0, $a0, 10 # y (121)
 		syscall
 		sub $a0, $a0, 20 # e (101)
+		syscall
+		addi $a0, $a0, 8 # m (109)
 		syscall 
+		sub $a0, $a0, 4 # i (105)
+		syscall 
+		sub $a0, $a0, 61 # , (44)
+		syscall 
+		addi $a0, $a0, 35 # O (79)
+		syscall
+		addi $a0, $a0, 30 # m (109)
+		syscall 
+		 

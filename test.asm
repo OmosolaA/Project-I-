@@ -21,7 +21,7 @@
 		sub $a0, $a0, 6 # 2 (50)
 		syscall
 		
-`		li $v0, 11
+		li $v0, 11
 		la $a0, 10 #return 
 		syscall
 		la $a0, 55 # A (65)
